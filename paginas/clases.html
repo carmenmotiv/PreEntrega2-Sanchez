@@ -1,91 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clases</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clases</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header>
-        <nav class="navBar">
-            <div class="navContainer">
-                <img src="../imagenes/gym-logo.jpg" alt="Logo Gym" class="logo">
-                <ul class="ulList">
-                    <li class="liItem"><a class="aItem" href="../index.html">Inicio</a></li>
-                    <li class="liItem"><a class="aItem" href="#">Sobre Nosotros</a></li>
-                    <li class="liItem"><a class="aItem" href="./membresias.html">Membresias</a></li>
-                    <li class="liItem"><a class="aItem" href="#">Clases</a></li>
-                    <li class="searchBar"><input type="search" class="form-control rounded" placeholder="Buscar..." aria-label="Search" aria-describedby="search-addon"/></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <h3 class="tituloClases">Clases</h3>
-        <table class="tabla">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../imagenes/gym-logo.jpg" alt="Logo Gym" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./membresias.html">Membresias</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Clases</a>
+            </li>
+          </ul>
+          <form class="form-inline">
+            <input class="form-control rounded mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <h3 class="text-center mt-4">Clases</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered mt-4">
+          <thead>
             <tr>
-                <th>LUNES</th>
-                <th>MARTES</th>
-                <th>MIERCOLES</th>
-                <th>JUEVES</th>
-                <th>VIERNES</th>
-                <th>SABADO</th>
-                <th>DOMINGO</th>
+              <th class="text-center">LUNES</th>
+              <th class="text-center">MARTES</th>
+              <th class="text-center">MIERCOLES</th>
+              <th class="text-center">JUEVES</th>
+              <th class="text-center">VIERNES</th>
+              <th class="text-center">SABADO</th>
+              <th class="text-center">DOMINGO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-center">Grupal Cardio 8:00am</td>
+              <td class="text-center">Gym Abierto 8:00am</td>
+              <td class="text-center">Grupal Pesas 8:00am</td>
+              <td class="text-center">Gym Abierto 8:00am</td>
+              <td class="text-center">Personal Trainer 8:00am</td>
+              <td class="text-center">Gym Abierto 8:00am</td>
+              <td class="text-center">Grupal Cardio 8:00am</td>
             </tr>
             <tr>
-                <td>Grupal Cardio 8:00am</td>
-                <td>Gym Abierto 8:00am</td>
-                <td>Grupal Pesas 8:00am</td>
-                <td>Gym Abierto 8:00am</td>
-                <td>Personal Trainer 8:00am</td>
-                <td>Gym Abierto 8:00am</td>
-                <td>Grupal Cardio 8:00am</td>
+              <td class="text-center">Grupal Cardio 10:00am</td>
+              <td class="text-center">Gym Abierto 10:00am</td>
+              <td class="text-center">Grupal Pesas 10:00am</td>
+              <td class="text-center">Gym Abierto 10:00am</td>
+              <td class="text-center">Personal Trainer 10:00am</td>
+              <td class="text-center">Gym Abierto 10:00am</td>
+              <td class="text-center">Grupal Cardio 10:00am</td>
             </tr>
             <tr>
-                <td>Grupal Cardio 10:00am</td>
-                <td>Gym Abierto 10:00am</td>
-                <td>Grupal Pesas 10:00am</td>
-                <td>Gym Abierto 10:00am</td>
-                <td>Personal Trainer 10:00am</td>
-                <td>Gym Abierto 10:00am</td>
-                <td>Grupal Cardio 10:00am</td>
+              <td class="text-center">Grupal Cardio 12:00pm</td>
+              <td class="text-center">Gym Abierto 12:00pm</td>
+              <td class="text-center">Grupal Pesas 12:00pm</td>
+              <td class="text-center">Gym Abierto 12:00pm</td>
+              <td class="text-center">Personal Trainer 12:00pm</td>
+              <td class="text-center">Gym Abierto 12:00pm</td>
+              <td class="text-center">Grupal Cardio 12:00pm</td>
             </tr>
             <tr>
-                <td>Grupal Cardio 12:00pm</td>
-                <td>Gym Abierto 12:00pm</td>
-                <td>Grupal Pesas 12:00pm</td>
-                <td>Gym Abierto 12:00pm</td>
-                <td>Personal Trainer 12:00pm</td>
-                <td>Gym Abierto 12:00pm</td>
-                <td>Grupal Cardio 12:00pm</td>
+              <td class="text-center">Grupal Cardio 4:00pm</td>
+              <td class="text-center">Gym Abierto 4:00pm</td>
+              <td class="text-center">Grupal Pesas 4:00pm</td>
+              <td class="text-center">Gym Abierto 4:00pm</td>
+              <td class="text-center">Personal Trainer 4:00pm</td>
+              <td class="text-center">Gym Abierto 4:00pm</td>
+              <td class="text-center">Grupal Cardio 4:00pm</td>
             </tr>
-            <tr>
-                <td>Grupal Cardio 4:00pm</td>
-                <td>Gym Abierto 4:00pm</td>
-                <td>Grupal Pesas 4:00pm</td>
-                <td>Gym Abierto 4:00pm</td>
-                <td>Personal Trainer 4:00pm</td>
-                <td>Gym Abierto 4:00pm</td>
-                <td>Grupal Cardio 4:00pm</td>
-            </tr>
+          </tbody>
         </table>
-    </main>
-    <footer class="bg-dark-1" id="footerAbsolute">
-        <section class="footer" class="py-5">
-          <div class="container text-center">
-            <a href="#" class="twitter"></a>
-            <a href="#" class="linkedin"></a>
-            <a href="#" class="facebook"></a>
-            <a href="#" class="skype"></a>
-          </div>
-        </section>
-    </footer>
-    
+      </div>
+    </div>
+  </main>
+  <footer class="bg-dark">
+    <section class="py-5">
+      <div class="container text-center">
+        <a href="#" class="twitter"></a>
+        <a href="#" class="linkedin"></a>
+        <a href="#" class="facebook"></a>
+        <a href="#" class="skype"></a>
+      </div>
+    </section>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -7,58 +7,77 @@
     <title>Membresias</title>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="navBar">
-            <div class="navContainer">
-                <img src="../imagenes/gym-logo.jpg" alt="Logo Gym" class="logo">
-                <ul class="ulList">
-                    <li class="liItem"><a class="aItem" href="../index.html">Inicio</a></li>
-                    <li class="liItem"><a class="aItem" href="#">Sobre Nosotros</a></li>
-                    <li class="liItem"><a class="aItem" href="#">Membresias</a></li>
-                    <li class="liItem"><a class="aItem" href="./clases.html">Clases</a></li>
-                    <li class="searchBar"><input type="search" class="form-control rounded" placeholder="Buscar..." aria-label="Search" aria-describedby="search-addon"/></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../imagenes/gym-logo.jpg" alt="Logo Gym" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Membresias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./clases.html">Clases</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control rounded mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search" aria-describedby="search-addon">
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
-    <main class="mainBox">
-        <h3 class="membresiasTitulo">Membresias</h3>
+    <main class="container">
+        <h3 class="text-center mt-4">Membresias</h3>
         <div class="row">
-            <div class="column">
-                <img src="../imagenes/gym-solo.jpg" alt="Gym solo Membresia" class="membresiaFoto">
+            <div class="col-md-6">
+                <img src="../imagenes/gym-solo.jpg" alt="Gym solo Membresia" class="membresiaFoto img-fluid">
                 <p class="textoDescriptivo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores officia ad veniam officiis necessitatibus perspiciatis praesentium quia nesciunt totam minus.</p>
             </div>
-            <div class="column">
-                <img src="../imagenes/personal-trainer.jpeg" alt="Gym Personal Trainer Membresia" class="personalTrainerFoto">
+            <div class="col-md-6">
+                <img src="../imagenes/personal-trainer.jpeg" alt="Gym Personal Trainer Membresia" class="personalTrainerFoto img-fluid">
                 <p class="textoDescriptivo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores officia ad veniam officiis necessitatibus perspiciatis praesentium quia nesciunt totam minus.</p>
             </div>
-          </div>
-          <div class="row">
-            <div class="column">
-                <img src="../imagenes/clases-grupales.jpg" alt="Gym Clases 1 Membresia" class="membresiaFoto">
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../imagenes/clases-grupales.jpg" alt="Gym Clases 1 Membresia" class="membresiaFoto img-fluid">
                 <p class="textoDescriptivo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores officia ad veniam officiis necessitatibus perspiciatis praesentium quia nesciunt totam minus.</p>
             </div>
-            <div class="column">
-                <img src="../imagenes/clases-pesa.jpg" alt="Gym Clases 2 Membresia" class="personalTrainerFoto">
+            <div class="col-md-6">
+                <img src="../imagenes/clases-pesa.jpg" alt="Gym Clases 2 Membresia" class="personalTrainerFoto img-fluid">
                 <p class="textoDescriptivo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores officia ad veniam officiis necessitatibus perspiciatis praesentium quia nesciunt totam minus.</p>
             </div>
-          </div>
+        </div>
     </main>
-    <footer class="bg-dark-1" class="footer">
-        <section class="footer" class="py-5">
-          <div class="container text-center">
-            <a href="#" class="twitter"></a>
-            <a href="#" class="linkedin"></a>
-            <a href="#" class="facebook"></a>
-            <a href="#" class="skype"></a>
-          </div>
+    <footer class="bg-dark">
+        <section class="py-5">
+            <div class="container text-center">
+                <a href="#" class="twitter"></a>
+                <a href="#" class="linkedin"></a>
+                <a href="#" class="facebook"></a>
+                <a href="#" class="skype"></a>
+            </div>
         </section>
     </footer>
-    
 </body>
 </html>
