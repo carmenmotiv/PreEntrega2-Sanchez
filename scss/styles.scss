@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 80px;
+    height: 50px;
+    float: left;
+}
+.ulList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.liItem {
+    float: left;
+}
+.aItem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.searchBar {
+    margin-top: 13px;
+    float: right;
+    margin-right: 4px;
+}
+.navContainer {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    padding-top: 12px;
+}
+.navBar {
+    background-color: grey;
+    height: 70px;
+    width: 100%;
+    text-align:center;
+}
+
+.footer {
+    .twitter {
+        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+    .linkedin {
+        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
+        background-repeat: no-repeat;
+        background-position: -78px 0;
+    }
+    .facebook {
+        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
+        background-repeat: no-repeat;
+        background-position: -233px 0;
+    }
+    .skype {
+        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
+        background-repeat: no-repeat;
+        background-position: -156px 0;
+    }
+    a {
+        height: 56px;
+        width: 56px;
+        display: inline-block;
+        margin: 10px;
+    }
+    a:hover {
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+    }
+    .twitter:hover {
+        background-position: 0 -56px;
+    }
+    .facebook:hover {
+        background-position: -233px -56px;
+    }
+    .skype:hover {
+        background-position: -156px -56px;
+    }
+    .linkedin:hover {
+        background-position: -78px -56px;
+    }
+}
+
+.bg-dark-1{
+    background-color: grey;
+}  
+.gymFoto{
+    width: 650px;
+    height: 500px;
+}
+.contenedorFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.parrafoInicio {
+    padding: 50px;
+}
+.tituloInicio {
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.membresiaFoto {
+    height: 200px;
+    width: 250px;
+}
+
+.personalTrainerFoto {
+    height: 150px;
+    width: 250px;
+}
+
+.textoDescriptivo {
+    padding: 50px;
+}
+.membresiasTitulo {
+    margin-left: 850px;
+}
+
+.tabla {
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.tituloClases {
+    padding-top: 50px;
+    padding-left: 850px;
+    padding-bottom: 20px;
+}
