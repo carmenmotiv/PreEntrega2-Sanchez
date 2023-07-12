@@ -1,5 +1,7 @@
+@import "variables";
+
 body {
-    margin: 0;
+    margin: $margenCero;
     padding: 0;
 }
 .logo {
@@ -9,7 +11,7 @@ body {
 }
 .ulList {
     list-style-type: none;
-    margin: 0;
+    margin: $margenCero;
     padding: 0;
     overflow: hidden;
 }
@@ -30,7 +32,7 @@ body {
 }
 .navContainer {
     width: 1200px;
-    margin: 0 auto;
+    margin: $margenCero auto;
     height: 70px;
     padding-top: 12px;
 }
@@ -43,23 +45,23 @@ body {
 
 .footer {
     .twitter {
-        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-        background-repeat: no-repeat;
+        background-image: url($iconoFooter);
+        background-repeat: $iconoNoRepetir;
         background-position: 0 0;
     }
     .linkedin {
-        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-        background-repeat: no-repeat;
+        background-image: url($iconoFooter);
+        background-repeat: $iconoNoRepetir;
         background-position: -78px 0;
     }
     .facebook {
-        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-        background-repeat: no-repeat;
+        background-image: url($iconoFooter);
+        background-repeat: $iconoNoRepetir;
         background-position: -233px 0;
     }
     .skype {
-        background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-        background-repeat: no-repeat;
+        background-image: url($iconoFooter);
+        background-repeat: $iconoNoRepetir;
         background-position: -156px 0;
     }
     a {
@@ -150,4 +152,8 @@ body {
     padding-top: 50px;
     padding-left: 850px;
     padding-bottom: 20px;
+}
+
+.enviarBoton {
+    margin-bottom: 35px;
 }

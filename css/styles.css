@@ -49,23 +49,23 @@ body {
 }
 
 .footer .twitter {
-  background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-  background-repeat: no-repeat;
+  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-repeat: "no-repeat";
   background-position: 0 0;
 }
 .footer .linkedin {
-  background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-  background-repeat: no-repeat;
+  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-repeat: "no-repeat";
   background-position: -78px 0;
 }
 .footer .facebook {
-  background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-  background-repeat: no-repeat;
+  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-repeat: "no-repeat";
   background-position: -233px 0;
 }
 .footer .skype {
-  background-image: url(http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png);
-  background-repeat: no-repeat;
+  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-repeat: "no-repeat";
   background-position: -156px 0;
 }
 .footer a {
@@ -160,6 +160,10 @@ body {
   padding-top: 50px;
   padding-left: 850px;
   padding-bottom: 20px;
+}
+
+.enviarBoton {
+  margin-bottom: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */
