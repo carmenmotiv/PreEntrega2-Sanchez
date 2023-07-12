@@ -1,3 +1,85 @@
+/* Small devices */
+@media (max-width: 576px) {
+  .membresiaFoto,
+  .personalTrainerFoto {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Medium devices */
+@media (min-width: 577px) and (max-width: 768px) {
+  .membresiaFoto,
+  .personalTrainerFoto {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Large devices */
+@media (min-width: 769px) and (max-width: 992px) {
+  .membresiaFoto,
+  .personalTrainerFoto {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Extra large devices */
+@media (min-width: 993px) {
+  .membresiaFoto,
+  .personalTrainerFoto {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Media queries for the "Clases" page (clases.html) */
+/* Small devices */
+@media (max-width: 576px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+/* Medium devices */
+@media (min-width: 577px) and (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+/* Large devices */
+@media (min-width: 769px) and (max-width: 992px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+/* Extra large devices */
+@media (min-width: 993px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+/* Media queries for the "Contacto" page (contacto.html) */
+/* Small devices */
+@media (max-width: 576px) {
+  .enviarBoton {
+    width: 100%;
+  }
+}
+/* Medium devices */
+@media (min-width: 577px) and (max-width: 768px) {
+  .enviarBoton {
+    width: 100%;
+  }
+}
+/* Large devices */
+@media (min-width: 769px) and (max-width: 992px) {
+  .enviarBoton {
+    width: 100%;
+  }
+}
+/* Extra large devices */
+@media (min-width: 993px) {
+  .enviarBoton {
+    width: auto;
+  }
+}
 body {
   margin: 0;
   padding: 0;
