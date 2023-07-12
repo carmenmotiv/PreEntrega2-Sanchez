@@ -131,22 +131,22 @@ body {
 }
 
 .footer .twitter {
-  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-image: url("../imagenes/footer-icons.png");
   background-repeat: "no-repeat";
   background-position: 0 0;
 }
 .footer .linkedin {
-  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-image: url("../imagenes/footer-icons.png");
   background-repeat: "no-repeat";
   background-position: -78px 0;
 }
 .footer .facebook {
-  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-image: url("../imagenes/footer-icons.png");
   background-repeat: "no-repeat";
   background-position: -233px 0;
 }
 .footer .skype {
-  background-image: url("http://manstyle.coralixthemes.com/light/img/light/icons/footer-icons.png");
+  background-image: url("../imagenes/footer-icons.png");
   background-repeat: "no-repeat";
   background-position: -156px 0;
 }
