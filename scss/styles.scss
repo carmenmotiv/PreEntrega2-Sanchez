@@ -1,24 +1,31 @@
 @import "variables";
-@import "mediaqueries";
 
 body {
     margin: $margenCero;
     padding: 0;
 }
+
 .logo {
     width: 80px;
     height: 50px;
-    float: left;
+    display: flex;
+    align-items: center;
 }
+
 .ulList {
     list-style-type: none;
     margin: $margenCero;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
+
 .liItem {
-    float: left;
+    display: flex;
+    align-items: center;
 }
+
 .aItem {
     display: block;
     color: white;
@@ -26,23 +33,31 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 .searchBar {
     margin-top: 13px;
-    float: right;
     margin-right: 4px;
+    display: flex;
+    align-items: center;
 }
+
 .navContainer {
     width: 1200px;
     margin: $margenCero auto;
     height: 70px;
     padding-top: 12px;
 }
-.navBar {
-    background-color: grey;
-    height: 70px;
-    width: 100%;
-    text-align:center;
+
+.navbar,
+.footer {
+    background-color: #4287f5;
 }
+
+// .navbar {
+//     height: 70px;
+//     width: 100%;
+//     text-align: center;
+// }
 
 .footer {
     .twitter {
@@ -50,52 +65,60 @@ body {
         background-repeat: $iconoNoRepetir;
         background-position: 0 0;
     }
+
     .linkedin {
         background-image: url($iconoFooter);
         background-repeat: $iconoNoRepetir;
         background-position: -78px 0;
     }
+
     .facebook {
         background-image: url($iconoFooter);
         background-repeat: $iconoNoRepetir;
         background-position: -233px 0;
     }
+
     .skype {
         background-image: url($iconoFooter);
         background-repeat: $iconoNoRepetir;
         background-position: -156px 0;
     }
+
     a {
         height: 56px;
         width: 56px;
         display: inline-block;
         margin: 10px;
-    }
-    a:hover {
         transition: all 0.3s ease-out;
         -webkit-transition: all 0.3s ease-out;
     }
+
     .twitter:hover {
         background-position: 0 -56px;
     }
+
     .facebook:hover {
         background-position: -233px -56px;
     }
+
     .skype:hover {
         background-position: -156px -56px;
     }
+
     .linkedin:hover {
         background-position: -78px -56px;
     }
 }
 
-.bg-dark-1{
+.bg-dark-1 {
     background-color: grey;
-}  
-.gymFoto{
+}
+
+.gymFoto {
     width: 650px;
     height: 500px;
 }
+
 .contenedorFoto {
     display: flex;
     align-items: center;
@@ -107,6 +130,7 @@ body {
 .parrafoInicio {
     padding: 50px;
 }
+
 .tituloInicio {
     padding-top: 40px;
     padding-left: 200px;
@@ -114,13 +138,13 @@ body {
 }
 
 .column {
-    float: left;
     width: 50%;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .mainBox {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -139,6 +163,7 @@ body {
 .textoDescriptivo {
     padding: 50px;
 }
+
 .membresiasTitulo {
     margin-left: 850px;
 }
